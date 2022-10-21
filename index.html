@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/_MG_9294 (1).jpg" alt="foto de perfil" />
+        <h1 class="nome">Geraldo Walter</h1>
+        <h2 class="cargo">Farmacêutico oncologista</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/sobre.png" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/speech-balloon.gif" alt="ícone de redes sociais" />
+          </li>
+          <li class="aba" id="meus-projetos">
+            <img src="./src/imagens/transferir (1).png" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Olá, tudo bem? Chamo-me <span>Geraldo Walter</span>, seja bem vindo ao meu Portfólio!</p><br>
+              <p>Minha <span>formação acadêmica</span> inclui graduação em Farmácia e em Bacharelado Interdisciplinar em Saúde, especialização em epidemiologia, residência Multiprofissional em Oncologia e Mestrado em Ciências Ambientais.</p><br>
+              <p> Meu <span>objetivo profissional</span> é exercer atenção farmacêutica no âmbito da oncologia </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="http://lattes.cnpq.br/4733524068969899" target="_blank" class="curriculo">Currículo<img src="./src/imagens/transferir (1).png" alt="ícone do linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/almeida.gw/" target="_blank" class="linkedin">Instagram<img src="./src/imagens/instagram.svg" alt="ícone do linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/geraldo-almeida-neto-b99700197/" target="_blank" class="github">Linkedin<img src="./src/imagens/linkedin.svg" alt="ícone do linkedin"></a>
+                </li>
+            </ul>
+          </div>
+
+          <div class="informacao" id="informacao-meus-projetos"> 
+            <h3 class="sub-titulo">Meus Projetos</h3>
+
+            <ul class="meus-projetos">
+              <li>
+                <a href="https://geobrasiliensis.emnuvens.com.br/geobrasiliensis/article/view/662" target="_blank" class="projeto">Artigo 01<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACDklEQVRoge2ZMU8UQRiG39kQaIBQY2JtIhT+ARM6CgPGgkYtTShUKkJLqQn/ABMbG3oK7C3uCkULo79ActCg0GDBY+G3x+Zg92Zv93ZWM0+yyd3NOzvvu9/tXL49KdJSgCngBdABzu3oAOvARGh/XgC3gM/k8wGYC+2zEKtEGuIbsArM2PEQ+G5j7wEX2m8uwMtMiGtXHZjLhFkJ4dELoGsmVws0j0yz16S3MjjgTNK0pFnn3NlNImBW0s9GnZXEAUiSc67w+5/q2koS2kBdxCBtIwZpGzHImHjtchg2sW1BtoBXo0xsMsippBMP3RawWfbkTQX5IWlJ0n1JR0O0J5IOSq+QNhy+uhE4BOYz51kAejnaY2Axo9v0XX/cQQ6AGZu/BNwtCDMYIh3fDh3kDdYiA0+ACzN3U5i8ECnbIYJcYlfR5m3YZylZ03eALwPvj0qsNbYgF8BT008Auzm6HrBguqSgEkGC/AKWTTsN7A/RD1ZmpEr0/fdfVA/y1nTzwCfP9XvAGhUqkVJ3h7gjaU3SbQ9trcRWt23EIG2jH4Srh9hdrh5id4HnwFRIk15kdrCPBbtb0Vgjm4D39lsFnw6uKsN81hKkDfx/N/u/TiLpPLSJOkgkfQ1tog4SSe9Cm6gDB0xK6ki6F9pMFRLn3G9JDyQdhjZThf4PmVXmmaTHkhb19++4SCQSiUSK+AOaZ4Jr4kbWhQAAAABJRU5ErkJggg==" alt="ícone para representar um projeto"></a>
+              </li>
+              <li>
+                <a href="https://repositorio.ufopa.edu.br/jspui/handle/123456789/658" target="_blank" class="projeto">Dissertação 01<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACDklEQVRoge2ZMU8UQRiG39kQaIBQY2JtIhT+ARM6CgPGgkYtTShUKkJLqQn/ABMbG3oK7C3uCkULo79ActCg0GDBY+G3x+Zg92Zv93ZWM0+yyd3NOzvvu9/tXL49KdJSgCngBdABzu3oAOvARGh/XgC3gM/k8wGYC+2zEKtEGuIbsArM2PEQ+G5j7wEX2m8uwMtMiGtXHZjLhFkJ4dELoGsmVws0j0yz16S3MjjgTNK0pFnn3NlNImBW0s9GnZXEAUiSc67w+5/q2koS2kBdxCBtIwZpGzHImHjtchg2sW1BtoBXo0xsMsippBMP3RawWfbkTQX5IWlJ0n1JR0O0J5IOSq+QNhy+uhE4BOYz51kAejnaY2Axo9v0XX/cQQ6AGZu/BNwtCDMYIh3fDh3kDdYiA0+ACzN3U5i8ECnbIYJcYlfR5m3YZylZ03eALwPvj0qsNbYgF8BT008Auzm6HrBguqSgEkGC/AKWTTsN7A/RD1ZmpEr0/fdfVA/y1nTzwCfP9XvAGhUqkVJ3h7gjaU3SbQ9trcRWt23EIG2jH4Srh9hdrh5id4HnwFRIk15kdrCPBbtb0Vgjm4D39lsFnw6uKsN81hKkDfx/N/u/TiLpPLSJOkgkfQ1tog4SSe9Cm6gDB0xK6ki6F9pMFRLn3G9JDyQdhjZThf4PmVXmmaTHkhb19++4SCQSiUSK+AOaZ4Jr4kbWhQAAAABJRU5ErkJggg==" alt="ícone para representar um projeto"></a>
+              </li>
+            </ul>
+          </div>
+                
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
